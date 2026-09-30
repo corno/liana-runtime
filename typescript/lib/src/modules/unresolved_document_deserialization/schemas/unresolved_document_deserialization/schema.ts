@@ -1,5 +1,5 @@
 
-import type * as s_parse_tree_deserialization from "astn-core/modules/deserialization/schemas/parse_tree_deserialization/schema"
+import type * as s_parse_tree_deserialization from "astn-runtime/modules/deserialization/schemas/parse_tree_deserialization/schema"
 import type * as s_unmarshalling from "../../../value_unmarshalling/schemas/unmarshalling/schema.js"
 
 

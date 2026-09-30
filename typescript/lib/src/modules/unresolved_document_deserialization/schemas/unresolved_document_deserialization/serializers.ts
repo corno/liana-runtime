@@ -10,7 +10,7 @@ namespace declarations {
 }
 
 //dependencies
-import * as ser_parse_tree_deserialization from "astn-core/modules/deserialization/schemas/parse_tree_deserialization/serializers"
+import * as ser_parse_tree_deserialization from "astn-runtime/modules/deserialization/schemas/parse_tree_deserialization/serializers"
 
 import * as ser_unmarshalling from "../../../value_unmarshalling/schemas/unmarshalling/serializers.js"
 

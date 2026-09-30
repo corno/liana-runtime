@@ -10,7 +10,7 @@ namespace declarations {
 }
 
 //dependencies
-import * as ser_value_unmarshalling from "astn-core/modules/unmarshalling/schemas/value_unmarshalling/serializers"
+import * as ser_value_unmarshalling from "astn-runtime/modules/unmarshalling/schemas/value_unmarshalling/serializers"
 
 export const Error: declarations.Error = ($) => p_.ph.composed([
     p_.from.state($).decide(

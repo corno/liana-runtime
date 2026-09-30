@@ -1,7 +1,7 @@
 import * as p_ from 'pareto-core/schema'
 
-import type * as s_astn from "astn-core/modules/unmarshalling/schemas/unmarshalled_value/schema"
-import type * as s_parse_tree from "astn-core/modules/deserialization/schemas/parse_tree/schema"
+import type * as s_astn from "astn-runtime/modules/unmarshalling/schemas/unmarshalled_value/schema"
+import type * as s_parse_tree from "astn-runtime/modules/deserialization/schemas/parse_tree/schema"
 
 export type Number = number
 

@@ -1,7 +1,7 @@
 
 import * as p_ from 'pareto-core/schema'
 
-import * as i_location from "astn-core/modules/deserialization/schemas/location/schema"
+import * as i_location from "astn-runtime/modules/deserialization/schemas/location/schema"
 
 export namespace Error_ {
     

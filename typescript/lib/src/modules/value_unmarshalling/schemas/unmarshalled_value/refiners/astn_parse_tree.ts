@@ -1,7 +1,7 @@
 import * as p_ from 'pareto-core/refiner'
 import p_change_context from 'pareto-core/refiner/specials/change_context'
 
-import type * as s_in from "astn-core/modules/deserialization/schemas/parse_tree/schema"
+import type * as s_in from "astn-runtime/modules/deserialization/schemas/parse_tree/schema"
 import type * as s_out from "../schema.js"
 import type * as s_function from "../../unmarshalling/schema.js"
 
@@ -77,8 +77,8 @@ namespace declarations {
 
 //dependencies
 import * as t_from_loc from "../../primitives/deserializers.js"
-import * as r_unmarshalled_value_from_parse_tree from "astn-core/modules/unmarshalling/schemas/unmarshalled_value/refiners/parse_tree"
-import * as t_parse_tree_to_start_token_range from "astn-core/modules/deserialization/schemas/parse_tree/transformers/start_token_range"
+import * as r_unmarshalled_value_from_parse_tree from "astn-runtime/modules/unmarshalling/schemas/unmarshalled_value/refiners/parse_tree"
+import * as t_parse_tree_to_start_token_range from "astn-runtime/modules/deserialization/schemas/parse_tree/transformers/start_token_range"
 
 export const Number: declarations.Number = ($, abort, $p) => {
     const value = $
